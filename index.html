@@ -11,11 +11,14 @@
 
 <body>
 	<div class="container">
-		<form action="" method="post" class="input-group mb-3 ">
-			<input class="input" type="text" name="text" ></input>
-			<input class="btn-primary" value="press here" type="submit"></input>
-		</form>
-		<p class="text-center border">Output text is here.</p>
+		<form class="input-group mb-3 p-3">
+			<input id="input-user" class="input js-item-to-add" type="text">
+		</input>
+		<input id="add-button" class="btn-primary js-add-button" value="add to my list" type="button">
+	</input>
+</form>
+<p>Your list to do, lazy monkey :</p>
+		<ol id="to-do-list"></ol>
  	</div>
 </body>
 
