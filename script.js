@@ -9,7 +9,7 @@ const delEmptyList = () => {
 	if (toDoList.firstChild !== null) notice.innerHTML = 'Your list to do, lazy monkey :';
 }
 const emptyList = () => {
-	if (toDoList.firstChild === null) notice.innerHTML = 'your list is empty ';
+	if (toDoList.firstChild === null) notice.innerHTML = 'Your list is empty ';
 }
 const addItem = () => {
 	const list = document.createElement('li');
