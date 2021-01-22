@@ -22,7 +22,11 @@ const addItem = () => {
 	const statusDone = () => {
 		list.style.backgroundColor = 'green';
 	};
+	const completed = () => {
+		statusButton.innerHTML = 'it is done';
+	};
 	statusButton.addEventListener('click', statusDone);
+	statusButton.addEventListener('click', completed);
 	const deleteButton = document.createElement('button');
 	deleteButton.innerHTML = 'delete';
 	toDoList.append(deleteButton);
